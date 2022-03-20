@@ -21,7 +21,7 @@ URL to download composer: [Composer Official](https://getcomposer.org/download/)
 - If you don't have any dependencies, or dev dependency, hit no for both cases
 - If the namespace matches your package name defined before, hit yes for namespace, or hit no.
 
-This will create a `composer.json` file in the directory, there we will write the custom configurations for our files.
+This will create a `composer.json` file in the directory, there you should write the custom configurations for all your files.
 
 After `"require":{}` configuration, write the following configuration
 

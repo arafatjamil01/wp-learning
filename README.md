@@ -9,4 +9,5 @@ future.
 I wll keep adding more contents as I keep learning those concepts.
 
 ### Contents
-[Walker Class & Walker Nav](./walker-class/README.md)
+[Walker Class & Walker Nav](./walker-class/README.md)  
+[Composer Autoload](./composer-package/REARME.md)  
