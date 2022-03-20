@@ -32,7 +32,6 @@ After `"require":{}` configuration, write the following configuration
         },
         "files": []
     }
-}
 ```
 In the above code, Themx\Core is the namespace of the plugin. Includes is the folder which will contain contents with different names. 
 
