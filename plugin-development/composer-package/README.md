@@ -16,6 +16,7 @@ URL to download composer: [Composer Official](https://getcomposer.org/download/)
 - Write package name, format - ( Vendor Name \ Package Name), e.g - arafatjamil01\plugin-name
 - Description should describe what the app is about
 - Author, if matched, skip it, type n, or simply hit enter
+- Minimum stability, write `dev`
 - Package type `wordpress-plugin`, this is a dedicated type.
 - License should be according to your version of license. e.g - GPLv3
 - If you don't have any dependencies, or dev dependency, hit no for both cases
