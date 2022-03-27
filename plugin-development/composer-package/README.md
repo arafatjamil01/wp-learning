@@ -19,7 +19,7 @@ URL to download composer: [Composer Official](https://getcomposer.org/download/)
 - Minimum stability, write `dev`
 - Package type `wordpress-plugin`, this is a dedicated type.
 - License should be according to your version of license. e.g - GPLv3
-- If you don't have any dependencies, or dev dependency, hit no for both cases
+- If you don't have any dependencies, or dev dependency, write `no` command for both cases
 - If the namespace matches your package name defined before, hit yes for namespace, or hit no.
 
 This will create a `composer.json` file in the directory, there you should write the custom configurations for all your files.
