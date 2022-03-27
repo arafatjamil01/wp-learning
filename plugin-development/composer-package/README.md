@@ -21,6 +21,7 @@ URL to download composer: [Composer Official](https://getcomposer.org/download/)
 - License should be according to your version of license. e.g - GPLv3
 - If you don't have any dependencies, or dev dependency, write `no` command for both cases
 - If the namespace matches your package name defined before, hit yes for namespace, or hit no.
+- Confirm the generation of composer file, by typing `yes` or simply hit enter.
 
 This will create a `composer.json` file in the directory, there you should write the custom configurations for all your files.
 
