@@ -60,3 +60,18 @@ The name of the files should also follow similar structure. e.g - We can create 
 ### Writing proper namespace
 
 If we are in the `includes` folder, the namespace should be `Themx\Core`. And if we are in the `includes\Admin` folder, the namespace of `Menu.php` will be `Themx\Core\Admin`.
+
+### Using "files" in composer JSON ( if a file doesn't follow PSR - 4 )
+
+If there is a file which doesn't maintain the PSR-4 format. Say we need to add a php file, which is not created in OOP model, doesn't have a namespace and naming is done as `functions.php` in 
+`includes` folder. In that case we will need to add that file in the `"files"` settings of `composer.json` file. 
+
+```json
+   "autoload": {
+        "psr-4": {
+            "Themx\\Core\\": "includes/"
+        },
+        "files": ["includes/functions.php"]
+    }
+```
+After it is done, you will need to run the command `composer install` again.
