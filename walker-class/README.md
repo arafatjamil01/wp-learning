@@ -27,3 +27,8 @@ Code Reference: [Walker Nav Menu](https://developer.wordpress.org/reference/clas
     </ul> <!-- End Level end_lvl()  -->
 </div>
 ```
+Within each of these functions, there are $args, $classes, $depth etc. variables. The output can be manipulated by using these variables.
+
+The main menu is considered as depth 0. First sub menu is depth 1, next depth in second sub menu and likewise. If there is children in ```<li>```, it can be checked using ```$args->has_children()```
+
+A skim through the nav walker class will give you more insights.
