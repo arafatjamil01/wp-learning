@@ -14,4 +14,4 @@ I wll keep adding more contents as I keep learning those concepts.
 [WordPress Ajax](./wordpress-ajax/README.md)  
 
 #### Plugin Development
-[Composer Autoload](./plugin-development/README.md)  
+[Composer Autoloading for plugin files](./plugin-development/README.md)  
