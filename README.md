@@ -15,3 +15,5 @@ I wll keep adding more contents as I keep learning those concepts.
 
 #### Plugin Development
 [Composer Autoloading for plugin files](./plugin-development/README.md)  
+[Gutenberg Block](./plugin-development/gutenberg-block/README.md)  
+[SPL-Autoloading](./plugin-development/spl-autoloading/readme.md)  
