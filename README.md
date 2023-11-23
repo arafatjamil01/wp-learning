@@ -15,3 +15,6 @@ I wll keep adding more contents as I keep learning those concepts.
 [Gutenberg Block](./gutenberg-block.md)  
 [SPL-Autoloading](./spl-autoloading.md)  
 [First Submenu With Different Name](./submenu-name.md)
+
+## PHPStorm Hacks
+[configure File Watcher for SCSS](./phpstorm-scss-file-watcher.md)
